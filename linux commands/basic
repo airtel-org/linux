@@ -1,1 +1,320 @@
+ere is a **clean and very useful list** of Linux commands commonly used by **DevOps engineers**, with **use case** and **syntax** — each item in **separate lines** for easy studying.
+
+
+
+# ✅ **Top Linux Commands for DevOps Engineers (With Use Case + Syntax)**
+
+---
+
+## **1. pwd**
+
+**Use Case:** To know the current working directory.
+**Syntax:** `pwd`
+
+---
+
+## **2. ls**
+
+**Use Case:** List files and directories.
+**Syntax:** `ls`, `ls -l`, `ls -a`, `ls -lh`
+
+---
+
+## **3. cd**
+
+**Use Case:** Navigate between directories.
+**Syntax:** `cd /path/to/dir`
+
+---
+
+## **4. mkdir**
+
+**Use Case:** Create a new directory.
+**Syntax:** `mkdir folder_name`
+
+---
+
+## **5. touch**
+
+**Use Case:** Create an empty file or update timestamp.
+**Syntax:** `touch file.txt`
+
+---
+
+## **6. cp**
+
+**Use Case:** Copy files or directories.
+**Syntax:** `cp source dest`
+`cp -r dir1 dir2`
+
+---
+
+## **7. mv**
+
+**Use Case:** Rename or move files.
+**Syntax:** `mv oldname newname`
+`mv file.txt /new/path/`
+
+---
+
+## **8. rm**
+
+**Use Case:** Delete files or directories.
+**Syntax:** `rm file.txt`
+`rm -r folder/`
+
+---
+
+## **9. cat**
+
+**Use Case:** View file contents.
+**Syntax:** `cat file.txt`
+
+---
+
+## **10. tail**
+
+**Use Case:** View last lines of log files.
+**Syntax:** `tail file.log`
+`tail -f file.log` (live monitoring)
+
+---
+
+## **11. head**
+
+**Use Case:** View first lines of a file.
+**Syntax:** `head file.txt`
+
+---
+
+## **12. grep**
+
+**Use Case:** Search text inside files/logs.
+**Syntax:** `grep "pattern" file.log`
+`grep -i "error" app.log`
+
+---
+
+## **13. find**
+
+**Use Case:** Search for files on disk.
+**Syntax:** `find /path -name "file.txt"`
+
+---
+
+## **14. chmod**
+
+**Use Case:** Change file permissions.
+**Syntax:** `chmod 755 script.sh`
+
+---
+
+## **15. chown**
+
+**Use Case:** Change ownership of files.
+**Syntax:** `chown user:group file.txt`
+
+---
+
+## **16. df**
+
+**Use Case:** Disk usage summary.
+**Syntax:** `df -h`
+
+---
+
+## **17. du**
+
+**Use Case:** Check folder size.
+**Syntax:** `du -sh folder/`
+
+---
+
+## **18. ps**
+
+**Use Case:** List running processes.
+**Syntax:** `ps aux`
+`ps -ef`
+
+---
+
+## **19. top**
+
+**Use Case:** Real-time CPU/memory usage.
+**Syntax:** `top`
+
+---
+
+## **20. htop**
+
+**Use Case:** Advanced top (if installed).
+**Syntax:** `htop`
+
+---
+
+## **21. kill**
+
+**Use Case:** Kill a running process.
+**Syntax:** `kill <PID>`
+`kill -9 <PID>`
+
+---
+
+## **22. systemctl**
+
+**Use Case:** Manage system services.
+**Syntax:**
+`systemctl start service`
+`systemctl stop service`
+`systemctl status service`
+`systemctl restart service`
+
+---
+
+## **23. service**
+
+**Use Case:** Old style service management.
+**Syntax:** `service nginx status`
+
+---
+
+## **24. ssh**
+
+**Use Case:** Connect to remote server.
+**Syntax:** `ssh user@ip`
+
+---
+
+## **25. scp**
+
+**Use Case:** Copy files between servers.
+**Syntax:** `scp file.txt user@ip:/path/`
+
+---
+
+## **26. wget**
+
+**Use Case:** Download files using URL.
+**Syntax:** `wget https://example.com/file.zip`
+
+---
+
+## **27. curl**
+
+**Use Case:** API calls, downloading files.
+**Syntax:** `curl https://api.example.com`
+
+---
+
+## **28. tar**
+
+**Use Case:** Compress or extract tar files.
+**Syntax:**
+Create: `tar -cvf archive.tar folder/`
+Extract: `tar -xvf archive.tar`
+
+---
+
+## **29. zip / unzip**
+
+**Use Case:** Compress/uncompress zip files.
+**Syntax:** `zip file.zip folder/`
+`unzip file.zip`
+
+---
+
+## **30. nano / vim**
+
+**Use Case:** Edit configuration files.
+**Syntax:** `nano file.txt`
+`vim file.txt`
+
+---
+
+## **31. hostnamectl**
+
+**Use Case:** Change or check hostname.
+**Syntax:** `hostnamectl set-hostname myserver`
+
+---
+
+## **32. env**
+
+**Use Case:** View environment variables.
+**Syntax:** `env`
+
+---
+
+## **33. export**
+
+**Use Case:** Set environment variables.
+**Syntax:** `export PATH=$PATH:/new/path`
+
+---
+
+## **34. crontab**
+
+**Use Case:** Schedule automated jobs.
+**Syntax:**
+Edit: `crontab -e`
+List: `crontab -l`
+
+---
+
+## **35. netstat** *(or ss)*
+
+**Use Case:** Check used ports.
+**Syntax:**
+`netstat -tulpn`
+`ss -tulpn`
+
+---
+
+## **36. ip / ifconfig**
+
+**Use Case:** View network configuration.
+**Syntax:** `ip a`
+`ifconfig` (legacy)
+
+---
+
+## **37. ping**
+
+**Use Case:** Test connectivity.
+**Syntax:** `ping google.com`
+
+---
+
+## **38. traceroute**
+
+**Use Case:** Check network routing path.
+**Syntax:** `traceroute google.com`
+
+---
+
+## **39. yum / dnf / apt**
+
+**Use Case:** Package installation.
+**Syntax:**
+RHEL: `yum install httpd`
+Ubuntu: `apt install nginx`
+
+---
+
+## **40. docker**
+
+**Use Case:** Manage containers.
+**Syntax:**
+`docker ps`
+`docker images`
+`docker logs container`
+
+---
+
+If you want I can also give:
+
+✅ **Kubernetes commands**
+✅ **Git DevOps commands**
+✅ **Interview questions based on these commands**
+Just tell me!
 
